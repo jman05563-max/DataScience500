@@ -90,7 +90,7 @@ Although the Linear Regression model showed limited predictive accuracy, the pro
 
 **Public GitHub Repository:**
 
-(https://github.com/jman05563-max/DataScience500.git)
+https://github.com/jman05563-max/DataScience500.git
 
 ### Academic Information
 
@@ -99,15 +99,3 @@ Although the Linear Regression model showed limited predictive accuracy, the pro
 **Module:** Data Science 500
 
 **Project:** Book Market Analytics – Books to Scrape
-
-
-
-
-
-
-
-
-
-
-
-https://github.com/jman05563-max/DataScience500.git
