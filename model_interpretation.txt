@@ -1,0 +1,32 @@
+## Linear Regression Model Evaluation
+
+The Linear Regression model was developed to predict book prices using information obtained from the Books to Scrape website. The selected features included book genre, numerical star rating, stock quantity and title length.
+
+The dataset contained 1,000 books and was divided into 800 training records (80%) and 200 testing records (20%). The model was trained using the training dataset and evaluated using previously unseen test records.
+
+### Model Performance
+
+The model produced the following evaluation results:
+
+- Mean Absolute Error (MAE): £12.91
+- Mean Squared Error (MSE): 225.26
+- Root Mean Squared Error (RMSE): £15.01
+- R-squared (R²): -0.0724
+
+The MAE indicates that the model's predicted book prices differed from their actual prices by approximately £12.91 on average. The RMSE of £15.01 indicates the presence of prediction errors, with larger errors receiving greater weight.
+
+The negative R² score indicates that the model performed worse than a baseline predicting the mean price of the test dataset. This suggests that the selected features have limited predictive usefulness for book pricing in this dataset.
+
+### Model Limitations
+
+The model has several limitations. Books to Scrape is a demonstration website rather than a live commercial bookstore. Consequently, its catalogue may not reflect real-world relationships between book characteristics and market prices.
+
+Additionally, the model does not incorporate potentially useful information such as publication date, author reputation, publisher, book format or historical sales figures.
+
+### Recommendations
+
+The findings suggest that retailers should not rely exclusively on star ratings, genres, stock quantities and title lengths when estimating book prices.
+
+Future research could explore additional explanatory variables, compare Linear Regression with alternative machine learning algorithms and evaluate performance using cross-validation.
+
+Although the model did not achieve strong predictive accuracy, the project demonstrates the complete process of collecting, cleaning, analysing and modelling structured web data.
